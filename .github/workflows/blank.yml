@@ -10,8 +10,12 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run a one-line script
-      run: echo Hello...cek word key
+      run: echo Hello...cek word key 
+    - run :cek general (num)  
+    - run : disable string (num) 
+    - run : view id (key) into 
+    - run : facebook (key) multi API
     - name: Run a multi-line script
-      run: |
+      run:|
         echo Add other actions to build,
         echo test, and deploy your project.
